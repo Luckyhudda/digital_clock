@@ -11,7 +11,7 @@ function updateTime(){
     const minutes = `${now.getMinutes()}`.padStart(2,0)
     const seconds = `${now.getSeconds()}`.padStart(2,0)
 
-    if(hours > 12){
+    if(hours >= 12){
         pm.classList.add('timeZone')
         am.classList.remove('timeZone')
     } else{
