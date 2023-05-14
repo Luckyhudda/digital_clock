@@ -41,7 +41,7 @@ function updateTime(){
     if(day === 6){
         document.querySelector('.saturday').style.color = 'white'
     }
-    if(day === 7){
+    if(day === 0){
         document.querySelector('.sunday').style.color = 'white'
     }
 
